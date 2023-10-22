@@ -1,0 +1,55 @@
+body {
+  background-color: #0F0F0F;
+  font-family: Noto Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+#form {
+  background-color: #f5fcf9; /* Light green */
+  inline-size: 30%;
+  border-radius: 8px;
+  margin: 120px auto;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light black shadow */
+}
+
+h1 {
+  text-align: center;
+  color: rgb(190, 204, 190); /* Green */
+}
+
+input {
+  inline-size: 90%;
+  border: 1px solid #008000; /* Green border */
+  border-radius: 4px;
+  padding: 10px;
+  margin-block-end: 10px;
+  font-size: 16px;
+  color: #000000; /* Black text */
+}
+
+input:focus {
+  border-color: #006400; /* Darker green on focus */
+}
+#btn{
+  width: 100%; /* make button same length as input fields */
+  height: 40px; /* make button slightly taller than input fields */
+  padding: 10px; /* padding inside button */
+  border-radius: 20px; /* 20px radius for the button */
+  border: none; /* Remove the border */
+  margin-top: 20px; /* Add more space below the confirm password */
+  color: white; /* text color in button to white */
+  background: linear-gradient(to right, lightblue, blue); /* blue gradient background for the button */
+  text-align: center; /* center text in button */
+  display: block; /* make button a block element */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  font-size: 16px;
+}
